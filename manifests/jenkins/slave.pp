@@ -9,4 +9,5 @@
 class roles::jenkins::slave {
   include ::profiles::base
   include ::profiles::jenkins::slave
+  include ::profiles::jenkins::slave::tools
 }

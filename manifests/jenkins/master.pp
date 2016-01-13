@@ -6,4 +6,5 @@
 class roles::jenkins::master {
   include ::profiles::base
   include ::profiles::jenkins::master
+  include ::profiles::jenkins::slave::tools
 }
